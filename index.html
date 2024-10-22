@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Rutinas de Ejercicio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Rutinas de Ejercicio Personalizadas</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mis Rutinas</a></li>
+                <li><a href="#">Progreso</a></li>
+                <li><a href="#">Base de Ejercicios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="create-routine">
+            <h2>Crea tu Rutina de Ejercicio</h2>
+            <form id="routine-form">
+                <label for="exercise">Selecciona un Ejercicio:</label>
+                <select id="exercise">
+                    <!-- Opciones generadas dinámicamente desde el archivo JSON -->
+                </select>
+                <button type="button" onclick="addExercise()">Agregar a la Rutina</button>
+            </form>
+
+            <h3>Tu Rutina</h3>
+            <ul id="routine-list">
+                <!-- Ejercicios agregados aparecerán aquí -->
+            </ul>
+        </section>
+
+        <section id="exercise-database">
+            <h2>Base de Ejercicios</h2>
+            <div id="exercise-container">
+                <!-- Ejercicios cargados desde el archivo JSON -->
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

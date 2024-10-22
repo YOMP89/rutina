@@ -1,0 +1,19 @@
+{
+    "exercises": [
+        {
+            "name": "Sentadilla",
+            "description": "Ejercicio para fortalecer las piernas.",
+            "video": "https://www.example.com/sentadilla.mp4"
+        },
+        {
+            "name": "Flexiones",
+            "description": "Ejercicio para el pecho y brazos.",
+            "video": "https://www.example.com/flexiones.mp4"
+        },
+        {
+            "name": "Plancha",
+            "description": "Ejercicio para fortalecer el core.",
+            "video": "https://www.example.com/plancha.mp4"
+        }
+    ]
+}
